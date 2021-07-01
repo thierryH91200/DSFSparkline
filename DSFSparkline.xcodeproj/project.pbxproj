@@ -10,6 +10,64 @@
 		03C68675268E20B500F49709 /* DSFSparkline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C6866B268E20B400F49709 /* DSFSparkline.framework */; };
 		03C6867A268E20B500F49709 /* DSFSparklineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C68679268E20B500F49709 /* DSFSparklineTests.swift */; };
 		03C6867C268E20B500F49709 /* DSFSparkline.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C6866E268E20B400F49709 /* DSFSparkline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03C6868C268E215C00F49709 /* SparklineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6868A268E215C00F49709 /* SparklineData.swift */; };
+		03C6868D268E215C00F49709 /* SparklineWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6868B268E215C00F49709 /* SparklineWindow.swift */; };
+		03C68690268E216D00F49709 /* DSFSparkline+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6868E268E216D00F49709 /* DSFSparkline+DataSource.swift */; };
+		03C68691268E216D00F49709 /* DSFSparkline+StaticDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6868F268E216D00F49709 /* DSFSparkline+StaticDataSource.swift */; };
+		03C686A7268E21FA00F49709 /* DSFSparklineDotGraphView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C68693268E21F900F49709 /* DSFSparklineDotGraphView+SwiftUI.swift */; };
+		03C686A8268E21FA00F49709 /* DSFSparklineBarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C68694268E21F900F49709 /* DSFSparklineBarGraphView.swift */; };
+		03C686A9268E21FA00F49709 /* DSFSparklineStackLineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C68695268E21F900F49709 /* DSFSparklineStackLineGraphView.swift */; };
+		03C686AA268E21FA00F49709 /* DSFSparklineStackLineGraphView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C68696268E21F900F49709 /* DSFSparklineStackLineGraphView+SwiftUI.swift */; };
+		03C686AB268E21FA00F49709 /* DSFSparklineWinLossGraphView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C68697268E21F900F49709 /* DSFSparklineWinLossGraphView+SwiftUI.swift */; };
+		03C686AC268E21FA00F49709 /* DSFSparklineBarGraphView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C68698268E21F900F49709 /* DSFSparklineBarGraphView+SwiftUI.swift */; };
+		03C686AD268E21FA00F49709 /* DSFSparklineDataBarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C68699268E21F900F49709 /* DSFSparklineDataBarGraphView.swift */; };
+		03C686AE268E21FA00F49709 /* DSFSparklineStripesGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6869A268E21F900F49709 /* DSFSparklineStripesGraphView.swift */; };
+		03C686AF268E21FA00F49709 /* DSFSparklineDataBarGraphView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6869B268E21F900F49709 /* DSFSparklineDataBarGraphView+SwiftUI.swift */; };
+		03C686B0268E21FA00F49709 /* DSFSparklinePercentBarGraphView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6869C268E21FA00F49709 /* DSFSparklinePercentBarGraphView+SwiftUI.swift */; };
+		03C686B1268E21FA00F49709 /* DSFSparklineDotGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6869D268E21FA00F49709 /* DSFSparklineDotGraphView.swift */; };
+		03C686B2268E21FA00F49709 /* DSFSparklineLineGraphView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6869E268E21FA00F49709 /* DSFSparklineLineGraphView+SwiftUI.swift */; };
+		03C686B3268E21FA00F49709 /* DSFSparklinePieGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6869F268E21FA00F49709 /* DSFSparklinePieGraphView.swift */; };
+		03C686B4268E21FA00F49709 /* DSFSparklineStripesGraphView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686A0268E21FA00F49709 /* DSFSparklineStripesGraphView+SwiftUI.swift */; };
+		03C686B5268E21FA00F49709 /* DSFSparklineTabletGraphView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686A1268E21FA00F49709 /* DSFSparklineTabletGraphView+SwiftUI.swift */; };
+		03C686B6268E21FA00F49709 /* DSFSparklineTabletGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686A2268E21FA00F49709 /* DSFSparklineTabletGraphView.swift */; };
+		03C686B7268E21FA00F49709 /* DSFSparklinePieGraphView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686A3268E21FA00F49709 /* DSFSparklinePieGraphView+SwiftUI.swift */; };
+		03C686B8268E21FA00F49709 /* DSFSparklinePercentBarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686A4268E21FA00F49709 /* DSFSparklinePercentBarGraphView.swift */; };
+		03C686B9268E21FA00F49709 /* DSFSparklineLineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686A5268E21FA00F49709 /* DSFSparklineLineGraphView.swift */; };
+		03C686BA268E21FA00F49709 /* DSFSparklineWinLossGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686A6268E21FA00F49709 /* DSFSparklineWinLossGraphView.swift */; };
+		03C686BE268E221C00F49709 /* DSFSparklineZeroLinedGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686BC268E221C00F49709 /* DSFSparklineZeroLinedGraphView.swift */; };
+		03C686BF268E221C00F49709 /* DSFSparklineDataSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686BD268E221C00F49709 /* DSFSparklineDataSourceView.swift */; };
+		03C686C4268E224400F49709 /* ArbitraryAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686C0268E224400F49709 /* ArbitraryAnimator.swift */; };
+		03C686C5268E224400F49709 /* NSShadow+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686C1268E224400F49709 /* NSShadow+extensions.swift */; };
+		03C686C6268E224400F49709 /* CGPath+Hermite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686C2268E224400F49709 /* CGPath+Hermite.swift */; };
+		03C686C7268E224400F49709 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686C3268E224400F49709 /* Utilities.swift */; };
+		03C686D2268E236200F49709 /* DSFSparklineOverlay+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686CE268E236200F49709 /* DSFSparklineOverlay+DataSource.swift */; };
+		03C686D3268E236200F49709 /* DSFSparklineOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686CF268E236200F49709 /* DSFSparklineOverlay.swift */; };
+		03C686D4268E236200F49709 /* DSFSparklineOverlay+Centerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686D0268E236200F49709 /* DSFSparklineOverlay+Centerable.swift */; };
+		03C686D5268E236200F49709 /* DSFSparklineOverlay+StaticDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686D1268E236200F49709 /* DSFSparklineOverlay+StaticDataSource.swift */; };
+		03C686D9268E236E00F49709 /* DSFSparklineOverlay+ZeroLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686D6268E236E00F49709 /* DSFSparklineOverlay+ZeroLine.swift */; };
+		03C686DA268E236E00F49709 /* DSFSparklineOverlay+GridLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686D7268E236E00F49709 /* DSFSparklineOverlay+GridLines.swift */; };
+		03C686DB268E236E00F49709 /* DSFSparklineOverlay+RangeHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686D8268E236E00F49709 /* DSFSparklineOverlay+RangeHighlight.swift */; };
+		03C686E6268E238100F49709 /* DSFSparklineOverlay+WinLossTie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686DC268E238000F49709 /* DSFSparklineOverlay+WinLossTie.swift */; };
+		03C686E7268E238100F49709 /* DSFSparklineOverlay+Tablet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686DD268E238000F49709 /* DSFSparklineOverlay+Tablet.swift */; };
+		03C686E8268E238100F49709 /* DSFSparklineOverlay+DataBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686DE268E238000F49709 /* DSFSparklineOverlay+DataBar.swift */; };
+		03C686E9268E238100F49709 /* DSFSparklineOverlay+Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686DF268E238000F49709 /* DSFSparklineOverlay+Dot.swift */; };
+		03C686EA268E238100F49709 /* DSFSparklineOverlay+PercentBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686E0268E238000F49709 /* DSFSparklineOverlay+PercentBar.swift */; };
+		03C686EB268E238100F49709 /* DSFSparklineOverlay+Stackline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686E1268E238100F49709 /* DSFSparklineOverlay+Stackline.swift */; };
+		03C686EC268E238100F49709 /* DSFSparklineOverlay+Stripes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686E2268E238100F49709 /* DSFSparklineOverlay+Stripes.swift */; };
+		03C686ED268E238100F49709 /* DSFSparklineOverlay+Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686E3268E238100F49709 /* DSFSparklineOverlay+Line.swift */; };
+		03C686EE268E238100F49709 /* DSFSparklineOverlay+Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686E4268E238100F49709 /* DSFSparklineOverlay+Pie.swift */; };
+		03C686EF268E238100F49709 /* DSFSparklineOverlay+Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686E5268E238100F49709 /* DSFSparklineOverlay+Bar.swift */; };
+		03C686F5268E23A500F49709 /* DSFSparklineSurface+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686F0268E23A400F49709 /* DSFSparklineSurface+View.swift */; };
+		03C686F6268E23A500F49709 /* DSFSparklineSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686F1268E23A400F49709 /* DSFSparklineSurface.swift */; };
+		03C686F7268E23A500F49709 /* DSFSparklineSurface+Bitmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686F2268E23A500F49709 /* DSFSparklineSurface+Bitmap.swift */; };
+		03C686F8268E23A500F49709 /* DSFSparklineSurface+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686F3268E23A500F49709 /* DSFSparklineSurface+SwiftUI.swift */; };
+		03C686F9268E23A500F49709 /* DSFSparklineSurface+AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686F4268E23A500F49709 /* DSFSparklineSurface+AttributedString.swift */; };
+		03C68700268E23BA00F49709 /* DSFSparkline+ZeroLineDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686FA268E23BA00F49709 /* DSFSparkline+ZeroLineDefinition.swift */; };
+		03C68701268E23BA00F49709 /* DSFSparkline+GradientBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686FB268E23BA00F49709 /* DSFSparkline+GradientBucket.swift */; };
+		03C68702268E23BA00F49709 /* DSFSparkline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686FC268E23BA00F49709 /* DSFSparkline.swift */; };
+		03C68703268E23BA00F49709 /* DSFSparkline+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686FD268E23BA00F49709 /* DSFSparkline+Fill.swift */; };
+		03C68704268E23BA00F49709 /* DSFSparkline+HighlightRangeDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686FE268E23BA00F49709 /* DSFSparkline+HighlightRangeDefinition.swift */; };
+		03C68705268E23BA00F49709 /* DSFSparkline+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C686FF268E23BA00F49709 /* DSFSparkline+Palette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +87,64 @@
 		03C68674268E20B500F49709 /* DSFSparklineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSFSparklineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C68679268E20B500F49709 /* DSFSparklineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSFSparklineTests.swift; sourceTree = "<group>"; };
 		03C6867B268E20B500F49709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C6868A268E215C00F49709 /* SparklineData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparklineData.swift; sourceTree = "<group>"; };
+		03C6868B268E215C00F49709 /* SparklineWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparklineWindow.swift; sourceTree = "<group>"; };
+		03C6868E268E216D00F49709 /* DSFSparkline+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparkline+DataSource.swift"; sourceTree = "<group>"; };
+		03C6868F268E216D00F49709 /* DSFSparkline+StaticDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparkline+StaticDataSource.swift"; sourceTree = "<group>"; };
+		03C68693268E21F900F49709 /* DSFSparklineDotGraphView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineDotGraphView+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C68694268E21F900F49709 /* DSFSparklineBarGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineBarGraphView.swift; sourceTree = "<group>"; };
+		03C68695268E21F900F49709 /* DSFSparklineStackLineGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineStackLineGraphView.swift; sourceTree = "<group>"; };
+		03C68696268E21F900F49709 /* DSFSparklineStackLineGraphView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineStackLineGraphView+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C68697268E21F900F49709 /* DSFSparklineWinLossGraphView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineWinLossGraphView+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C68698268E21F900F49709 /* DSFSparklineBarGraphView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineBarGraphView+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C68699268E21F900F49709 /* DSFSparklineDataBarGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineDataBarGraphView.swift; sourceTree = "<group>"; };
+		03C6869A268E21F900F49709 /* DSFSparklineStripesGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineStripesGraphView.swift; sourceTree = "<group>"; };
+		03C6869B268E21F900F49709 /* DSFSparklineDataBarGraphView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineDataBarGraphView+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C6869C268E21FA00F49709 /* DSFSparklinePercentBarGraphView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklinePercentBarGraphView+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C6869D268E21FA00F49709 /* DSFSparklineDotGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineDotGraphView.swift; sourceTree = "<group>"; };
+		03C6869E268E21FA00F49709 /* DSFSparklineLineGraphView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineLineGraphView+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C6869F268E21FA00F49709 /* DSFSparklinePieGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklinePieGraphView.swift; sourceTree = "<group>"; };
+		03C686A0268E21FA00F49709 /* DSFSparklineStripesGraphView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineStripesGraphView+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C686A1268E21FA00F49709 /* DSFSparklineTabletGraphView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineTabletGraphView+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C686A2268E21FA00F49709 /* DSFSparklineTabletGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineTabletGraphView.swift; sourceTree = "<group>"; };
+		03C686A3268E21FA00F49709 /* DSFSparklinePieGraphView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklinePieGraphView+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C686A4268E21FA00F49709 /* DSFSparklinePercentBarGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklinePercentBarGraphView.swift; sourceTree = "<group>"; };
+		03C686A5268E21FA00F49709 /* DSFSparklineLineGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineLineGraphView.swift; sourceTree = "<group>"; };
+		03C686A6268E21FA00F49709 /* DSFSparklineWinLossGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineWinLossGraphView.swift; sourceTree = "<group>"; };
+		03C686BC268E221C00F49709 /* DSFSparklineZeroLinedGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineZeroLinedGraphView.swift; sourceTree = "<group>"; };
+		03C686BD268E221C00F49709 /* DSFSparklineDataSourceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineDataSourceView.swift; sourceTree = "<group>"; };
+		03C686C0268E224400F49709 /* ArbitraryAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArbitraryAnimator.swift; sourceTree = "<group>"; };
+		03C686C1268E224400F49709 /* NSShadow+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSShadow+extensions.swift"; sourceTree = "<group>"; };
+		03C686C2268E224400F49709 /* CGPath+Hermite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPath+Hermite.swift"; sourceTree = "<group>"; };
+		03C686C3268E224400F49709 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		03C686CE268E236200F49709 /* DSFSparklineOverlay+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+DataSource.swift"; sourceTree = "<group>"; };
+		03C686CF268E236200F49709 /* DSFSparklineOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineOverlay.swift; sourceTree = "<group>"; };
+		03C686D0268E236200F49709 /* DSFSparklineOverlay+Centerable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+Centerable.swift"; sourceTree = "<group>"; };
+		03C686D1268E236200F49709 /* DSFSparklineOverlay+StaticDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+StaticDataSource.swift"; sourceTree = "<group>"; };
+		03C686D6268E236E00F49709 /* DSFSparklineOverlay+ZeroLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+ZeroLine.swift"; sourceTree = "<group>"; };
+		03C686D7268E236E00F49709 /* DSFSparklineOverlay+GridLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+GridLines.swift"; sourceTree = "<group>"; };
+		03C686D8268E236E00F49709 /* DSFSparklineOverlay+RangeHighlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+RangeHighlight.swift"; sourceTree = "<group>"; };
+		03C686DC268E238000F49709 /* DSFSparklineOverlay+WinLossTie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+WinLossTie.swift"; sourceTree = "<group>"; };
+		03C686DD268E238000F49709 /* DSFSparklineOverlay+Tablet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+Tablet.swift"; sourceTree = "<group>"; };
+		03C686DE268E238000F49709 /* DSFSparklineOverlay+DataBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+DataBar.swift"; sourceTree = "<group>"; };
+		03C686DF268E238000F49709 /* DSFSparklineOverlay+Dot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+Dot.swift"; sourceTree = "<group>"; };
+		03C686E0268E238000F49709 /* DSFSparklineOverlay+PercentBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+PercentBar.swift"; sourceTree = "<group>"; };
+		03C686E1268E238100F49709 /* DSFSparklineOverlay+Stackline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+Stackline.swift"; sourceTree = "<group>"; };
+		03C686E2268E238100F49709 /* DSFSparklineOverlay+Stripes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+Stripes.swift"; sourceTree = "<group>"; };
+		03C686E3268E238100F49709 /* DSFSparklineOverlay+Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+Line.swift"; sourceTree = "<group>"; };
+		03C686E4268E238100F49709 /* DSFSparklineOverlay+Pie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+Pie.swift"; sourceTree = "<group>"; };
+		03C686E5268E238100F49709 /* DSFSparklineOverlay+Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineOverlay+Bar.swift"; sourceTree = "<group>"; };
+		03C686F0268E23A400F49709 /* DSFSparklineSurface+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineSurface+View.swift"; sourceTree = "<group>"; };
+		03C686F1268E23A400F49709 /* DSFSparklineSurface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparklineSurface.swift; sourceTree = "<group>"; };
+		03C686F2268E23A500F49709 /* DSFSparklineSurface+Bitmap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineSurface+Bitmap.swift"; sourceTree = "<group>"; };
+		03C686F3268E23A500F49709 /* DSFSparklineSurface+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineSurface+SwiftUI.swift"; sourceTree = "<group>"; };
+		03C686F4268E23A500F49709 /* DSFSparklineSurface+AttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparklineSurface+AttributedString.swift"; sourceTree = "<group>"; };
+		03C686FA268E23BA00F49709 /* DSFSparkline+ZeroLineDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparkline+ZeroLineDefinition.swift"; sourceTree = "<group>"; };
+		03C686FB268E23BA00F49709 /* DSFSparkline+GradientBucket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparkline+GradientBucket.swift"; sourceTree = "<group>"; };
+		03C686FC268E23BA00F49709 /* DSFSparkline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFSparkline.swift; sourceTree = "<group>"; };
+		03C686FD268E23BA00F49709 /* DSFSparkline+Fill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparkline+Fill.swift"; sourceTree = "<group>"; };
+		03C686FE268E23BA00F49709 /* DSFSparkline+HighlightRangeDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparkline+HighlightRangeDefinition.swift"; sourceTree = "<group>"; };
+		03C686FF268E23BA00F49709 /* DSFSparkline+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFSparkline+Palette.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +187,10 @@
 		03C6866D268E20B400F49709 /* DSFSparkline */ = {
 			isa = PBXGroup;
 			children = (
+				03C68688268E20F800F49709 /* datasource */,
+				03C68687268E20EF00F49709 /* overlay */,
+				03C68686268E20EA00F49709 /* prebuilt */,
+				03C68685268E20E400F49709 /* util */,
 				03C6866E268E20B400F49709 /* DSFSparkline.h */,
 				03C6866F268E20B400F49709 /* Info.plist */,
 			);
@@ -84,6 +204,156 @@
 				03C6867B268E20B500F49709 /* Info.plist */,
 			);
 			path = DSFSparklineTests;
+			sourceTree = "<group>";
+		};
+		03C68685268E20E400F49709 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				03C686C0268E224400F49709 /* ArbitraryAnimator.swift */,
+				03C686C2268E224400F49709 /* CGPath+Hermite.swift */,
+				03C686C1268E224400F49709 /* NSShadow+extensions.swift */,
+				03C686C3268E224400F49709 /* Utilities.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		03C68686268E20EA00F49709 /* prebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				03C686BB268E220800F49709 /* ui */,
+				03C68694268E21F900F49709 /* DSFSparklineBarGraphView.swift */,
+				03C68698268E21F900F49709 /* DSFSparklineBarGraphView+SwiftUI.swift */,
+				03C68699268E21F900F49709 /* DSFSparklineDataBarGraphView.swift */,
+				03C6869B268E21F900F49709 /* DSFSparklineDataBarGraphView+SwiftUI.swift */,
+				03C6869D268E21FA00F49709 /* DSFSparklineDotGraphView.swift */,
+				03C68693268E21F900F49709 /* DSFSparklineDotGraphView+SwiftUI.swift */,
+				03C686A5268E21FA00F49709 /* DSFSparklineLineGraphView.swift */,
+				03C6869E268E21FA00F49709 /* DSFSparklineLineGraphView+SwiftUI.swift */,
+				03C686A4268E21FA00F49709 /* DSFSparklinePercentBarGraphView.swift */,
+				03C6869C268E21FA00F49709 /* DSFSparklinePercentBarGraphView+SwiftUI.swift */,
+				03C6869F268E21FA00F49709 /* DSFSparklinePieGraphView.swift */,
+				03C686A3268E21FA00F49709 /* DSFSparklinePieGraphView+SwiftUI.swift */,
+				03C68695268E21F900F49709 /* DSFSparklineStackLineGraphView.swift */,
+				03C68696268E21F900F49709 /* DSFSparklineStackLineGraphView+SwiftUI.swift */,
+				03C6869A268E21F900F49709 /* DSFSparklineStripesGraphView.swift */,
+				03C686A0268E21FA00F49709 /* DSFSparklineStripesGraphView+SwiftUI.swift */,
+				03C686A2268E21FA00F49709 /* DSFSparklineTabletGraphView.swift */,
+				03C686A1268E21FA00F49709 /* DSFSparklineTabletGraphView+SwiftUI.swift */,
+				03C686A6268E21FA00F49709 /* DSFSparklineWinLossGraphView.swift */,
+				03C68697268E21F900F49709 /* DSFSparklineWinLossGraphView+SwiftUI.swift */,
+			);
+			path = prebuilt;
+			sourceTree = "<group>";
+		};
+		03C68687268E20EF00F49709 /* overlay */ = {
+			isa = PBXGroup;
+			children = (
+				03C686CA268E229B00F49709 /* renderers */,
+				03C686C9268E228900F49709 /* surfaces */,
+				03C686C8268E228200F49709 /* types */,
+			);
+			path = overlay;
+			sourceTree = "<group>";
+		};
+		03C68688268E20F800F49709 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				03C6868E268E216D00F49709 /* DSFSparkline+DataSource.swift */,
+				03C6868F268E216D00F49709 /* DSFSparkline+StaticDataSource.swift */,
+				03C68689268E214400F49709 /* data-core */,
+			);
+			path = datasource;
+			sourceTree = "<group>";
+		};
+		03C68689268E214400F49709 /* data-core */ = {
+			isa = PBXGroup;
+			children = (
+				03C6868A268E215C00F49709 /* SparklineData.swift */,
+				03C6868B268E215C00F49709 /* SparklineWindow.swift */,
+			);
+			name = "data-core";
+			sourceTree = "<group>";
+		};
+		03C686BB268E220800F49709 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				03C686BD268E221C00F49709 /* DSFSparklineDataSourceView.swift */,
+				03C686BC268E221C00F49709 /* DSFSparklineZeroLinedGraphView.swift */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		03C686C8268E228200F49709 /* types */ = {
+			isa = PBXGroup;
+			children = (
+				03C686FC268E23BA00F49709 /* DSFSparkline.swift */,
+				03C686FD268E23BA00F49709 /* DSFSparkline+Fill.swift */,
+				03C686FB268E23BA00F49709 /* DSFSparkline+GradientBucket.swift */,
+				03C686FE268E23BA00F49709 /* DSFSparkline+HighlightRangeDefinition.swift */,
+				03C686FF268E23BA00F49709 /* DSFSparkline+Palette.swift */,
+				03C686FA268E23BA00F49709 /* DSFSparkline+ZeroLineDefinition.swift */,
+			);
+			name = types;
+			sourceTree = "<group>";
+		};
+		03C686C9268E228900F49709 /* surfaces */ = {
+			isa = PBXGroup;
+			children = (
+				03C686F1268E23A400F49709 /* DSFSparklineSurface.swift */,
+				03C686F4268E23A500F49709 /* DSFSparklineSurface+AttributedString.swift */,
+				03C686F2268E23A500F49709 /* DSFSparklineSurface+Bitmap.swift */,
+				03C686F3268E23A500F49709 /* DSFSparklineSurface+SwiftUI.swift */,
+				03C686F0268E23A400F49709 /* DSFSparklineSurface+View.swift */,
+			);
+			name = surfaces;
+			sourceTree = "<group>";
+		};
+		03C686CA268E229B00F49709 /* renderers */ = {
+			isa = PBXGroup;
+			children = (
+				03C686CD268E230600F49709 /* core */,
+				03C686CC268E230000F49709 /* overlays-components */,
+				03C686CB268E22F600F49709 /* overlays-graph */,
+			);
+			path = renderers;
+			sourceTree = "<group>";
+		};
+		03C686CB268E22F600F49709 /* overlays-graph */ = {
+			isa = PBXGroup;
+			children = (
+				03C686E5268E238100F49709 /* DSFSparklineOverlay+Bar.swift */,
+				03C686DE268E238000F49709 /* DSFSparklineOverlay+DataBar.swift */,
+				03C686DF268E238000F49709 /* DSFSparklineOverlay+Dot.swift */,
+				03C686E3268E238100F49709 /* DSFSparklineOverlay+Line.swift */,
+				03C686E0268E238000F49709 /* DSFSparklineOverlay+PercentBar.swift */,
+				03C686E4268E238100F49709 /* DSFSparklineOverlay+Pie.swift */,
+				03C686E1268E238100F49709 /* DSFSparklineOverlay+Stackline.swift */,
+				03C686E2268E238100F49709 /* DSFSparklineOverlay+Stripes.swift */,
+				03C686DD268E238000F49709 /* DSFSparklineOverlay+Tablet.swift */,
+				03C686DC268E238000F49709 /* DSFSparklineOverlay+WinLossTie.swift */,
+			);
+			name = "overlays-graph";
+			sourceTree = "<group>";
+		};
+		03C686CC268E230000F49709 /* overlays-components */ = {
+			isa = PBXGroup;
+			children = (
+				03C686D7268E236E00F49709 /* DSFSparklineOverlay+GridLines.swift */,
+				03C686D8268E236E00F49709 /* DSFSparklineOverlay+RangeHighlight.swift */,
+				03C686D6268E236E00F49709 /* DSFSparklineOverlay+ZeroLine.swift */,
+			);
+			path = "overlays-components";
+			sourceTree = "<group>";
+		};
+		03C686CD268E230600F49709 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				03C686CF268E236200F49709 /* DSFSparklineOverlay.swift */,
+				03C686D0268E236200F49709 /* DSFSparklineOverlay+Centerable.swift */,
+				03C686CE268E236200F49709 /* DSFSparklineOverlay+DataSource.swift */,
+				03C686D1268E236200F49709 /* DSFSparklineOverlay+StaticDataSource.swift */,
+			);
+			name = core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +417,7 @@
 				TargetAttributes = {
 					03C6866A268E20B400F49709 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					03C68673268E20B500F49709 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -194,6 +465,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C686B5268E21FA00F49709 /* DSFSparklineTabletGraphView+SwiftUI.swift in Sources */,
+				03C686C6268E224400F49709 /* CGPath+Hermite.swift in Sources */,
+				03C686F9268E23A500F49709 /* DSFSparklineSurface+AttributedString.swift in Sources */,
+				03C68700268E23BA00F49709 /* DSFSparkline+ZeroLineDefinition.swift in Sources */,
+				03C686E8268E238100F49709 /* DSFSparklineOverlay+DataBar.swift in Sources */,
+				03C686B9268E21FA00F49709 /* DSFSparklineLineGraphView.swift in Sources */,
+				03C6868C268E215C00F49709 /* SparklineData.swift in Sources */,
+				03C686EB268E238100F49709 /* DSFSparklineOverlay+Stackline.swift in Sources */,
+				03C686DB268E236E00F49709 /* DSFSparklineOverlay+RangeHighlight.swift in Sources */,
+				03C686BE268E221C00F49709 /* DSFSparklineZeroLinedGraphView.swift in Sources */,
+				03C686B1268E21FA00F49709 /* DSFSparklineDotGraphView.swift in Sources */,
+				03C68705268E23BA00F49709 /* DSFSparkline+Palette.swift in Sources */,
+				03C686AC268E21FA00F49709 /* DSFSparklineBarGraphView+SwiftUI.swift in Sources */,
+				03C686B2268E21FA00F49709 /* DSFSparklineLineGraphView+SwiftUI.swift in Sources */,
+				03C686D9268E236E00F49709 /* DSFSparklineOverlay+ZeroLine.swift in Sources */,
+				03C686D2268E236200F49709 /* DSFSparklineOverlay+DataSource.swift in Sources */,
+				03C686DA268E236E00F49709 /* DSFSparklineOverlay+GridLines.swift in Sources */,
+				03C686B4268E21FA00F49709 /* DSFSparklineStripesGraphView+SwiftUI.swift in Sources */,
+				03C6868D268E215C00F49709 /* SparklineWindow.swift in Sources */,
+				03C686AF268E21FA00F49709 /* DSFSparklineDataBarGraphView+SwiftUI.swift in Sources */,
+				03C686B3268E21FA00F49709 /* DSFSparklinePieGraphView.swift in Sources */,
+				03C686EF268E238100F49709 /* DSFSparklineOverlay+Bar.swift in Sources */,
+				03C686D4268E236200F49709 /* DSFSparklineOverlay+Centerable.swift in Sources */,
+				03C686F7268E23A500F49709 /* DSFSparklineSurface+Bitmap.swift in Sources */,
+				03C686ED268E238100F49709 /* DSFSparklineOverlay+Line.swift in Sources */,
+				03C686A7268E21FA00F49709 /* DSFSparklineDotGraphView+SwiftUI.swift in Sources */,
+				03C686BA268E21FA00F49709 /* DSFSparklineWinLossGraphView.swift in Sources */,
+				03C686F6268E23A500F49709 /* DSFSparklineSurface.swift in Sources */,
+				03C68702268E23BA00F49709 /* DSFSparkline.swift in Sources */,
+				03C686E6268E238100F49709 /* DSFSparklineOverlay+WinLossTie.swift in Sources */,
+				03C686A8268E21FA00F49709 /* DSFSparklineBarGraphView.swift in Sources */,
+				03C686EC268E238100F49709 /* DSFSparklineOverlay+Stripes.swift in Sources */,
+				03C686EA268E238100F49709 /* DSFSparklineOverlay+PercentBar.swift in Sources */,
+				03C686BF268E221C00F49709 /* DSFSparklineDataSourceView.swift in Sources */,
+				03C686A9268E21FA00F49709 /* DSFSparklineStackLineGraphView.swift in Sources */,
+				03C686AE268E21FA00F49709 /* DSFSparklineStripesGraphView.swift in Sources */,
+				03C686F5268E23A500F49709 /* DSFSparklineSurface+View.swift in Sources */,
+				03C686C7268E224400F49709 /* Utilities.swift in Sources */,
+				03C686B7268E21FA00F49709 /* DSFSparklinePieGraphView+SwiftUI.swift in Sources */,
+				03C686B6268E21FA00F49709 /* DSFSparklineTabletGraphView.swift in Sources */,
+				03C686D5268E236200F49709 /* DSFSparklineOverlay+StaticDataSource.swift in Sources */,
+				03C686B8268E21FA00F49709 /* DSFSparklinePercentBarGraphView.swift in Sources */,
+				03C68691268E216D00F49709 /* DSFSparkline+StaticDataSource.swift in Sources */,
+				03C68703268E23BA00F49709 /* DSFSparkline+Fill.swift in Sources */,
+				03C686E7268E238100F49709 /* DSFSparklineOverlay+Tablet.swift in Sources */,
+				03C686E9268E238100F49709 /* DSFSparklineOverlay+Dot.swift in Sources */,
+				03C68701268E23BA00F49709 /* DSFSparkline+GradientBucket.swift in Sources */,
+				03C686C4268E224400F49709 /* ArbitraryAnimator.swift in Sources */,
+				03C686B0268E21FA00F49709 /* DSFSparklinePercentBarGraphView+SwiftUI.swift in Sources */,
+				03C686AD268E21FA00F49709 /* DSFSparklineDataBarGraphView.swift in Sources */,
+				03C686AB268E21FA00F49709 /* DSFSparklineWinLossGraphView+SwiftUI.swift in Sources */,
+				03C686D3268E236200F49709 /* DSFSparklineOverlay.swift in Sources */,
+				03C68704268E23BA00F49709 /* DSFSparkline+HighlightRangeDefinition.swift in Sources */,
+				03C686AA268E21FA00F49709 /* DSFSparklineStackLineGraphView+SwiftUI.swift in Sources */,
+				03C686EE268E238100F49709 /* DSFSparklineOverlay+Pie.swift in Sources */,
+				03C686C5268E224400F49709 /* NSShadow+extensions.swift in Sources */,
+				03C68690268E216D00F49709 /* DSFSparkline+DataSource.swift in Sources */,
+				03C686F8268E23A500F49709 /* DSFSparklineSurface+SwiftUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +669,7 @@
 		03C68680268E20B500F49709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -357,6 +687,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = th.DSFSparkline;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -364,6 +695,7 @@
 		03C68681268E20B500F49709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -388,6 +720,7 @@
 		03C68683268E20B500F49709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 84WLNJ2YG4;
@@ -406,6 +739,7 @@
 		03C68684268E20B500F49709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 84WLNJ2YG4;
